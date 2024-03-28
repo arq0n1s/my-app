@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.myDiv {
+  width: 300px; /* Ширина вашего div */
+  height: 200px; /* Высота вашего div */
+  background-color: #f0f0f0; /* Цвет фона вашего div */
+  border: 1px solid #ccc; /* Граница вашего div */
+  padding: 20px; /* Отступ внутри вашего div */
+  margin: 20px; /* Отступ вокруг вашего div */
+}

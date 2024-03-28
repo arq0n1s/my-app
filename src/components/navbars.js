@@ -8,11 +8,19 @@ const Navbars = ({setCurrentCard, currentCard, cardList, setCreateFormIsActive})
   const handleClickCreateCard = () => {
     setCreateFormIsActive(true);
     setCurrentCard(null);
-  }
+  };
+
+  const containerStyle = {
+    backgroundColor: 'lightblue', // Цвет фона контейнера
+    border: '2px solid gray', // Граница контейнера
+    borderRadius: '5px', // Скругление углов
+    padding: '20px', // Отступы внутри контейнера
+
+  };
 
   return (
     <div> <Navbar expand="lg" className="bg-body-tertiary">
-    <Container>
+    <Container fluid style={containerStyle}>
       <Navbar.Brand href="#home">Cards Lists</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
